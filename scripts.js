@@ -20,3 +20,9 @@ for(let span of ltBlueSpans){
 for(let span of dkBlueSpans){
     span.style.color = "#3C5E73";
 }
+
+// select each svg icon and change the stroke color
+let svgs = document.querySelectorAll("#svgs svg");
+
+// array of colors to change stroke to
+let colors = [];
